@@ -16,6 +16,7 @@
 <!-- html con elementi php -->
 <h1>paragrafo originale:</h1>
 <p><?php echo $paragrafo ?></p>
+<p><?php echo 'Lunghezza stringa: '.strlen($paragrafo)?></p>
 <h1>paragrafo con sostituzione</h1>
 <p><?php echo $sostituzione ?></p>
 <p><?php echo 'Lunghezza stringa: '.strlen($sostituzione)?></p>
