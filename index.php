@@ -10,10 +10,12 @@
   // variabile badWord
   $badWord = $_GET['badWord'];
   // variabile con valore *** da usare al posto della badWord selezionata
-  $sostituzione = str_replace($badword, "***", $paragrafo);
+  $sostituzione = str_replace($badWord, "***", $paragrafo);
  ?>
 
 <!-- html con elementi php -->
+<h1>paragrafo originale:</h1>
 <p><?php echo $paragrafo ?></p>
-<p><?php echo 'Lunghezza stringa: '.strlen($stringa)?></p>
+<h1>paragrafo con sostituzione</h1>
 <p><?php echo $sostituzione ?></p>
+<p><?php echo 'Lunghezza stringa: '.strlen($sostituzione)?></p>
