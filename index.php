@@ -16,4 +16,4 @@
 <!-- html con elementi php -->
 <p><?php echo $paragrafo ?></p>
 <p><?php echo 'Lunghezza stringa: '.strlen($stringa)?></p>
-<p><?php echo $nuovo_testo ?></p>
+<p><?php echo $sostituzione ?></p>
